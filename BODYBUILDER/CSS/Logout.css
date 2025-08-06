@@ -1,0 +1,19 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 20%;
+    margin: 20px;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 2rem;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}

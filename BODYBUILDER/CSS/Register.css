@@ -1,0 +1,46 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.fields{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.labels{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 50px;
+}
+.labels label{
+    font-size: 2rem;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 30px;
+}
+.inputs input{
+    font-size: 1.5rem;
+    height: 50px;
+}
+button{
+    color: white;
+    background-color: blue;
+    font-size: 2rem;
+    height: 70px;
+    width: 60%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+

@@ -1,0 +1,45 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 40vh;
+}
+.labels{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 2rem;
+    justify-content: space-between;
+    height: 100%;
+}
+.inputs{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    justify-content: space-between;
+    height: 100%;
+}
+select{
+    font-size: 2rem;
+    color: blue;
+}
+
+button{
+    width: 30%;
+    font-size: 2rem;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 25px 10px;
+}

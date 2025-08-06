@@ -1,0 +1,43 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.labels{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 30px;
+}
+.labels label{
+    font-size: 2rem;
+
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 30px;
+}
+.inputs input{
+    font-size: 2rem;
+}
+button{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: green;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}

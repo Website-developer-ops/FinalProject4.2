@@ -45,7 +45,8 @@ function register(){
             else{
                 endRegistrationLogic();
             }
-        });      
+        });
+        console.log(myObj);      
     }
 }
 
@@ -58,7 +59,7 @@ function endRegistrationLogic(){
         let myUsers = JSON.parse(localStorage.getItem("2025Registered"));
         myUsers = [...myUsers, myObj];
 
-        console.log(myUsers);
+        // console.log(myUsers);
 
         myUsers = JSON.stringify(myUsers);
         localStorage.setItem("2025Registered", myUsers);

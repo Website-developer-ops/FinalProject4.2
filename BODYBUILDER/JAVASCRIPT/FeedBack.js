@@ -2,9 +2,9 @@
 let myLabels = document.querySelectorAll("label");
 let mySelects = document.querySelectorAll("select");
 
-// let myObjects = [];
+let myObjects = [];
 // localStorage.setItem("userFeedBacks", JSON.stringify(myObjects));
-let myObj = {a: "", b: "", c: "", d: "", e: ""};
+let myObj = {Rating: "", Affordability: "", Friendly: "", Beneficial: "", Services: ""};
 
 function handleFeedback(){
     
@@ -25,11 +25,11 @@ function handleFeedback(){
         }
 
         else{
-            myObj.a = mySelects[0].value;
-            myObj.b = mySelects[1].value;
-            myObj.c = mySelects[2].value;
-            myObj.d = mySelects[3].value;
-            myObj.e = mySelects[4].value;
+            myObj.Rating = mySelects[0].value;
+            myObj.Affordability = mySelects[1].value;
+            myObj.Friendly = mySelects[2].value;
+            myObj.Beneficial = mySelects[3].value;
+            myObj.Services = mySelects[4].value;
 
             myObjects = JSON.parse(localStorage.getItem("userFeedBacks"));
             myObjects = [...myObjects, myObj];
